@@ -95,6 +95,8 @@ func ValidateAndDetermineFilename() (bool, string) {
 			filename = "shadow.txt"
 		case "thinkertoy", "thinkertoy.txt":
 			filename = "thinkertoy.txt"
+		case "propre", "propre.txt":
+			filename = "propre.txt"
 		default:
 			fmt.Printf("Could not create the alphabet. Are you sure %s exists and is a valid ascii file?\n", os.Args[2])
 			os.Exit(1)
